@@ -1,0 +1,47 @@
+html {
+    font-family: "clother", sans-serif;
+font-weight: 400;
+font-style: normal;
+    background-color:rgb(253, 250, 239);
+    color:rgb(122, 9, 9);
+    margin: 2em;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: -.5em;
+}
+h3 {
+    text-align: center;
+    margin-top: -.5em;
+    margin-bottom: 2em;
+}
+
+#ingred {
+    font-size: 10pt;
+}
+
+#toppic {
+    width: 300px;
+    height: none;
+    float: inline-end;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questions {
+    color:rgb(253, 250, 239);
+    background-color: rgb(122, 9, 9);
+    padding: 2em;
+}
+
+a {
+    color: rgb(145, 223, 247);
+    font-weight: bold;
+}
