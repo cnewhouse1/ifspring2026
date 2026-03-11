@@ -1,0 +1,68 @@
+html {
+    font-family: "clother", sans-serif;
+font-weight: 400;
+font-style: normal;
+    background-color:rgb(10, 60, 7);
+    color:rgb(251, 244, 184);
+    margin: 2em;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: -.5em;
+}
+h3 {
+    text-align: center;
+    margin-top: -.5em;
+    margin-bottom: 2em;
+}
+
+#ingred {
+    font-size: 10pt;
+}
+
+#toppic {
+    width: 300px;
+    height: none;
+    float: inline-end;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questions {
+    color:rgb(155, 122, 1);
+    background-color: rgb(251, 244, 184);
+    padding: 2em;
+    border-radius: 5px ;
+}
+
+a {
+    color: rgb(5, 72, 93);
+    font-weight: bold;
+}
+#link {
+    text-align: center;
+}
+
+#intro {
+    color:rgb(155, 122, 1);
+    background-color: rgb(251, 244, 184);
+    padding: 2em;
+    border-radius: 5px ;
+}
+#spice {
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 1.5rem;
+    margin-top: 1%;
+}
+
+#enjoy {
+    margin-top: 1.5rem;
+}
