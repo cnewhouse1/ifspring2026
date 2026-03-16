@@ -124,7 +124,7 @@ li {
     padding: 20px;
     background-color: #fbfcd2;
     color:#3a5241;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 .method li {
@@ -155,8 +155,8 @@ li {
 }
 
 footer {
-    font-family: "rl-horizon", sans-serif;
-        font-weight: 700;
+    font-family: "pacaembu", sans-serif;
+
         font-style: normal;
         font-size: 10pt;  
         margin-top: 20px;
@@ -237,4 +237,20 @@ hr {
     width: 300px; 
     max-width: 400px;
     height: auto;  
+     margin-top: -105px;
+}
+
+.step img:hover {
+    transform: scale(1.5);
+}
+
+#eight:hover {
+    transform: scale(1.2);
+}
+
+.step img.bigger  {
+    width: 190px;
+    max-width: 100%;
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
