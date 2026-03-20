@@ -1,0 +1,339 @@
+	body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+#CN {
+    display: inline-block;
+    width: 150px;          
+    height: 150px;
+
+    background-image: url("../img/CN.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    text-indent: -9999px;   
+    overflow: hidden;
+
+    transition: 0.3s ease;
+}
+
+#CN:hover {
+    background-image: url("../img/click.png");
+    animation: glitch 0.3s steps(2) infinite;
+}
+
+@keyframes glitch {
+    0%   { transform: translate(0, 0); }
+    20%  { transform: translate(-3px, 2px); }
+    40%  { transform: translate(3px, -2px); }
+    60%  { transform: translate(-2px, -1px); }
+    80%  { transform: translate(2px, 1px); }
+    100% { transform: translate(0, 0); }
+}
+
+ #TN{
+font-family: "itc-avant-garde-gothic-pro", sans-serif;
+font-weight: 600;
+font-style: normal;
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+}
+#TN span {
+    position: relative;
+    z-index: 2;
+}
+#TN::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/jimmy.avif");
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.7;
+
+    transition: left 1.5s ease;
+}
+#TN:hover::after {
+    left: 100%;
+}
+
+#ON {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 25px;
+
+    background-color: #002f6c;
+    color: #fff;
+
+   font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+#ON:hover {
+    background-color: #fff;
+    color: #002f6c;
+    border: 4px solid #002f6c;
+}
+
+#FF {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 35px 15px 20px; /* extra right space for plane */
+
+    background-color: #1e6ea7;
+    color: #fff;
+
+    font-family: "parabolica-text", sans-serif;
+font-weight: 700;
+font-style: normal;
+    text-decoration: none;
+
+    overflow: visible;
+}
+
+#FF:hover {
+    box-shadow: 0 8px 20px rgba(20, 25, 117, 0.171);  
+    transform: translateY(-1px);            
+}
+#FF:hover span {
+    text-shadow: 2px 2px 5px rgba(19, 33, 70, 0.6);  /* makes text pop */
+}
+
+#FF span {
+    position: relative;
+    z-index: 2;
+}
+
+#FF i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+
+    font-size: 18px;
+    color: #ffffff;
+
+    transition: all 1s ease;
+}
+
+#FF:hover i {
+    top: -20px;
+    transform: rotate(-45deg);
+    opacity: 0; 
+     box-shadow: 0 8px 20px rgba(0,0,0,0.4);  /* adds shadow under button */
+
+}
+
+#CC {
+    display: inline-block;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 35px;
+
+    background-color: #e41f26; 
+    color: #fff;
+
+    background-image: url("../img/cclogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+ text-indent: -9999px;     
+    background-size: 100% auto;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+#CC:hover {
+    box-shadow: 0 8px 20px rgba(222, 9, 9, 0.643);  
+    transform: scale(0.9);   /* shrinks the button and its contents to 90% */
+    transition: transform 0.5s ease;
+}
+
+#CC::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;                    
+    height: 100%;
+    background-image: url("../img/cc.png"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;          
+    z-index: 0;                                
+}
+
+/* On hover, scale up the PNG */
+#CC:hover::before {
+    transform: translate(-50%, -50%) scale(1.5); 
+}
