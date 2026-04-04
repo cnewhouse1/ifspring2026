@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: "helvetica-neue-lt-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
+text-transform: lowercase;
+}
+
+.htop {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.htop-img {
+  width: 99%; 
+  height: auto;
+}
+
+.content {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; 
+}
+
+
+.row {
+  display: grid;
+  grid-template-columns: 230px 1fr; 
+  gap: 20px;
+}
+
+/* LEFT SIDE TITLE */
+.section-title {
+  text-align: right;
+  margin-top: -10px;
+  font-size: 40px;
+  font-family: "linotype-didot", serif;
+font-weight: 400;
+font-style: normal;
+color: #E5450F;
+letter-spacing: -1px;
+}
+#htopfam
+{
+     font-family: "linotype-didot", serif;
+font-weight: 400;
+font-style: normal;
+color: #E5450F;
+letter-spacing: -1px;
+font-size: larger;
+}
+
+#htopmod {
+    font-family: "helvetica-neue-lt-pro", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.italics {
+    font-family: "helvetica-neue-lt-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #E5450F;
+letter-spacing: .4px;
+
+}
+
+
+.row p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+
+  .content {
+     padding-top: 60px; 
+    width: 90%;     
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+
+  .row p {
+    max-width: 500px;
+    text-align: left;
+  }
+
+  .htop-img {
+    width: 95%;
+  }
+
+  .htop-title {
+    top: 40%;
+  }
+
+}
+
+.navbar {
+  position: absolute;
+  top: 82px; 
+  left: 50%;
+  transform: translateX(-50%);
+  
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.nav-btn {
+  padding: 6px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: .85rem;
+
+  white-space: nowrap;
+
+  background-color: rgb(255, 255, 255);
+  color: #E5450F;
+
+  transition: all 0.25s ease;
+  min-width: 140px;
+}
+
+.home-btn {
+  position: relative;
+}
+
+.home-btn span {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  background-color: #E5450F;
+  color: rgb(255, 255, 255);
+  transform: scale(1.08);
+}
+.home-btn .hover-text {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-btn:hover .default-text {
+  opacity: 0;
+}
+
+.home-btn:hover .hover-text {
+  opacity: 1;
+}
+
+.default-text {
+    color: black;
+    text-align: center;
+}
+
+#buttonfam {
+font-family: "linotype-didot", serif;
+font-weight: 400;
+font-style: normal;
+color: #E5450F;
+letter-spacing: -1px;
+font-size: larger;
+text-align: center;
+}
+
+@media (max-width: 700px) {
+
+  .navbar {
+    position: absolute;     
+    transform: translate(-50%,-50%);
+    top: 105%;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    width: 90%;
+    max-width: 320px;       
+    margin: 20px auto;      
+  }
+
+  .nav-btn {   
+    min-width: 75px;   
+    font-size: 12px;      
+    text-align: center; 
+    background-color: #E5450F;
+    color: white;
+      padding: 6px 9px;
+  }
+
+  .nav-btn:hover {
+    background-color: #ffffff;
+    color: #E5450F;
+    transform: scale(1.08);  
+  }
+
+  .default-text {
+    color: white;
+  }
+
+  #buttonfam {
+    color: white;
+  }
+
+  .content {
+    margin-top: 50px;
+  }}
