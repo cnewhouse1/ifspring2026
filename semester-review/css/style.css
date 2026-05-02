@@ -44,14 +44,6 @@ header {
     padding: 7px;
     margin: 20px;
 }
-
-.right {
-    text-align: right;
-}
- #rightt {
-    margin-left: auto;
- }
-
 .title {
     margin: 20px;
 }
@@ -63,4 +55,40 @@ h3 {
 font-weight: 400;
 font-style: normal;
 color: rgb(0, 84, 140);
+}
+
+.words {
+    margin-top: 8px;
+}
+
+@media (max-width: 700px) {
+
+  body {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .contents ul {
+    justify-content: center;   /* centers the flex items horizontally */
+  }
+
+  .contents li {
+    text-align: center;  
+          /* centers text inside boxes */
+  }
+
+  .title, .contents {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contents {
+    margin: 40px 30px;         /* more space around the whole section */
+    padding: 10px;             /* optional: adjust container padding */
+  }
+
+
 }
